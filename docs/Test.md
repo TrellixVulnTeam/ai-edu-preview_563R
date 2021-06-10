@@ -82,16 +82,38 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 # 字符格式化
 
-Text can be {​--deleted--} and replacement text {​++added++}. This can also be
-combined into {​~~one~>a single~~} operation. {​==Highlighting==} is also
-possible {​>>and comments can be added inline<<}.
+Here is some {--*incorrect*--} Markdown.  I am adding this{++ here++}.  Here is some more {--text
+ that I am removing--}text.  And here is even more {++text that I 
+ am ++}adding.{~~
 
-{​==
+~>  ~~}Paragraph was deleted and replaced with some spaces.{~~  ~>
 
-Formatting can also be applied to blocks, by putting the opening and closing
-tags on separate lines and adding new lines between the tags and the content.
+~~}Spaces were removed and a paragraph was added.
 
-==}
+And here is a comment on {==some
+ text==}{>>This works quite well. I just wanted to comment on it.<<}. Substitutions {~~is~>are~~} great!
+
+General block handling.
+
+{--
+
+* test remove
+* test remove
+* test remove
+    * test remove
+* test remove
+
+--}
+
+{++
+
+* test add
+* test add
+* test add
+    * test add
+* test add
+
+++}
 
 # 表情支持
 
