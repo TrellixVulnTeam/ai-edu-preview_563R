@@ -15,7 +15,7 @@ document$.subscribe(() => {
   MathJax.typesetPromise()
 })
 
-const gitalk = new Gitalk({
+var gitalk = new Gitalk({
   clientID: '192844eda51bfad64420',
   clientSecret: 'af922effc6dc62de3fedb61169b7b4935c673c1e',
   repo: 'ai-edu-preview',      // The repository of store comments,
