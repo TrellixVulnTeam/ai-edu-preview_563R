@@ -12,7 +12,7 @@ A7-强化学习，准备中。
 
 新书出版！
 
-<img src="./A-基础教程/A2-神经网络基本原理/Images/cover.png" width=300/>
+<img src="./img/cover.png" width=300/>
 ![](./img/cover.png){ width=300 }
 
 目前在各大网店都可以买到。全书400多页，全彩印刷，由高等教育出版社出版，是下面所述的“神经网络基本原理教程”的印刷版。
