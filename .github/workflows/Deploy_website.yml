@@ -27,9 +27,9 @@ jobs:
         with:
           python-version: 3.x
           
-      # Copy content to Docs
-      - run: cp -r './基础教程' ./Doc/
-      - run: cp -r './实践案例' ./Doc/
+      # Move content to Docs
+      - run: mv './基础教程' ./Doc/基础教程
+      - run: mv './实践案例' ./Doc/实践案例
       
       # Installation dependency
       - run: pip install mkdocs-material mkdocs-material-extensions pymdown-extensions
