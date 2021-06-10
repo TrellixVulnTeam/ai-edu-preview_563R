@@ -267,8 +267,6 @@ markdown_extensions:
       smart_dollar: false
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.critic:
-      mode: accept
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
