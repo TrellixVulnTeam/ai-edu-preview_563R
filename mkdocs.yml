@@ -260,7 +260,11 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.critic
+  - pymdownx.critic:
+      mode: accept
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -269,6 +273,7 @@ markdown_extensions:
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx-inline
+  - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed
