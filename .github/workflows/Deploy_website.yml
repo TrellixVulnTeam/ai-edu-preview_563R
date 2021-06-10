@@ -28,8 +28,8 @@ jobs:
           python-version: 3.x
           
       # Move content to Docs
-      - run: mv './基础教程' ./Doc/基础教程
-      - run: mv './实践案例' ./Doc/实践案例
+      - run: mv './基础教程' ./docs/基础教程
+      - run: mv './实践案例' ./docs/实践案例
       
       # Installation dependency
       - run: pip install mkdocs-material mkdocs-material-extensions pymdown-extensions
