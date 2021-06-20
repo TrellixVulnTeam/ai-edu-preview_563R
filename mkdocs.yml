@@ -242,13 +242,12 @@ nav:
     - License: 'LICENSE.md'
 
 # Extra CSS
-extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css
 
 # Extra javascript
 extra_javascript:
   - javascripts/config.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
 
 # Extensions
@@ -262,7 +261,6 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.arithmatex:
-      generic: true
       smart_dollar: false
   - pymdownx.betterem:
       smart_enable: all
