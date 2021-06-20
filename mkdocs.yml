@@ -59,6 +59,8 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       prebuild_index: true
+  - git-revision-date:
+      enabled_if_env: CI
 
 # Page tree
 nav:
