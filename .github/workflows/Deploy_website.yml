@@ -21,9 +21,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      # Get git log
-      - uses: JantHsueh/get-git-log-action@1.0
 
       # Set up Python env
       - uses: actions/setup-python@v2
@@ -39,7 +36,7 @@ jobs:
       
       # Installation dependency
       - run: pip install git+https://github.com/IMSUVEN/mkdocs.git
-      - run: pip install mkdocs-material==7.1.8 mkdocs-material-extensions==1.0.1 pymdown-extensions==8.2 jieba==0.42.1 mkdocs-git-revision-date-plugin==0.3.1
+      - run: pip install mkdocs-material==7.1.8 mkdocs-material-extensions==1.0.1 pymdown-extensions==8.2 jieba==0.42.1
       
       # Deploy website
       - run: mkdocs gh-deploy --force
