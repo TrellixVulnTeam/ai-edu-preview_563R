@@ -58,7 +58,7 @@ Ai-edu为各位用户提供了基础教程、实践案例、课程集锦、实�
                     <li>自然语言理解</a></li>
                         <ul>
                             <li>
-                                <a href="./实践案例/B17-快速构建中文文本蕴含深度学习模型/README.md">快速构建中文文本蕴含深度学习模型</a>
+                                <a href="./实践案例/B14-快速构建中文文本蕴含深度学习模型/README.md">快速构建中文文本蕴含深度学习模型</a>
                             </li>
                             <li>
                                 <a href="./实践案例/B13-AI对联生成案例/README.md">智能对联</a>
@@ -93,18 +93,10 @@ Ai-edu为各位用户提供了基础教程、实践案例、课程集锦、实�
             </td>
             <td>
                 <ul>
-                    <li><a href="./课程集锦/人工智能系列前沿课程/README.md">人工智能系列前沿课程</a></li>
-                    <li><a href="./课程集锦/机器学习课程-北京大学蒋严冰/README.md">机器学习课程-北京大学蒋严冰</a></li>
-                    <li><a href="./课程集锦/神经网络基本原理简明教程/README.md">神经网络基本原理简明教程</a></li>
-                    <li><a href="./课程集锦/README.md">更多</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
                     <li><a href="./实践项目/2019_MSC_黄金点/README.md">2019_MSC_黄金点</a></li>
                     <li><a href="./实践项目/2019_MSC_实践空间站/README.md">2019_MSC_实践空间站</a></li>
                     <li><a href="./实践项目/2020_SP_NNI/README.md">2020_SP_NNI</a></li>
-                    <li><a href="./实践项目/A6-人工智能系统/README.md">更多</a></li>
+                    <li><a href="./实践项目/README.md">更多</a></li>
                 </ul>
             </td>
         </tr>
@@ -122,7 +114,7 @@ Ai-edu为各位用户提供了基础教程、实践案例、课程集锦、实�
 
 ## **反馈**
 - 在Github Issue中提交问题
-- 与我们[邮件]()沟通
+- 与我们邮件沟通
 
 ## **使命**
 本社区是微软亚洲研究院（Microsoft Research Asia，简称MSRA）人工智能教育团队创立的人工智能教育与学习共建社区。
