@@ -32,7 +32,9 @@ jobs:
       - run: mv './实践案例' ./docs/实践案例
       
       # Installation dependency
-      - run: pip install mkdocs-material mkdocs-material-extensions pymdown-extensions
+      - run: pip install git+https://github.com/IMSUVEN/mkdocs.git
+      - run: pip install mkdocs-material==7.1.8 mkdocs-material-extensions==1.0.1 pymdown-extensions==8.2 jieba==0.42.1
+      
       
       # Deploy website
       - run: mkdocs gh-deploy --force
