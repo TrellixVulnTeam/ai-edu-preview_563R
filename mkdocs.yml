@@ -4,7 +4,6 @@
 site_name: 'Ai-edu'
 site_author: 'Ai-edu Team'
 site_description: '微软人工智能教育与学习共建社区(简称Ai-edu)是一个涵盖人工智能、深度学习等内容的开源知识社区，帮助用户在学与实践中掌握人工智能的知识。'
-site_url: https://imsuven.github.io/ai-edu-preview
 copyright: 'Copyright © Microsoft Corporation. All rights reserved.'
 repo_name: Microsoft/ai-edu
 repo_url: 'https://github.com/microsoft/ai-edu'
