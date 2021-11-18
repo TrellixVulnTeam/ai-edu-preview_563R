@@ -11,6 +11,7 @@ repo_url: 'https://github.com/microsoft/ai-edu'
 # Configuration
 theme:
   name: material
+  custom_dir: ./docs/overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -254,9 +255,12 @@ nav:
     - License: 'LICENSE.md'
 
 # Extra CSS
+extra_css:
+  - https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
 
 # Extra javascript
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
   - javascripts/config.js
   - https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.min.js
